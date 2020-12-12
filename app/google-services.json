@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "9837636019",
+    "firebase_url": "https://criminal-alert-d5694.firebaseio.com",
+    "project_id": "criminal-alert-d5694",
+    "storage_bucket": "criminal-alert-d5694.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9837636019:android:405776cd92469144e043c6",
+        "android_client_info": {
+          "package_name": "com.student.crimnalalert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9837636019-stp8vkna3jbc5bes6k25c8hth9p1e766.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBk4fDp-5_TIx0qMCBfx4rks1pq_J6Skw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9837636019-stp8vkna3jbc5bes6k25c8hth9p1e766.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

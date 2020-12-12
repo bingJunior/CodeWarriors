@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.student.crimnalalert">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".viewfeatures"></activity>
+        <activity android:name=".NCR_REGISTER.FoundArticle" />
+        <activity android:name=".NCR_REGISTER.LostArticle" />
+        <activity android:name=".NCR_REGISTER.MissingChildrenReport" />
+        <activity android:name=".NCR_REGISTER.MissingChildrenSearch" />
+        <activity android:name=".NCR_REGISTER.MissingPersonSearch" />
+        <activity android:name=".NCR_REGISTER.MissPersonReport" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".assign_home" />
+        <activity android:name=".assign_login" />
+        <activity
+            android:name=".assign_adapter"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".assign_signup" />
+        <activity android:name=".Registeractivity" />
+        <activity android:name=".Splash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
