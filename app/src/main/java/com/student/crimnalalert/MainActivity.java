@@ -185,12 +185,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         return true;
     }
 
-    private void setfragment(Fragment fragment) {
-        FragmentManager fm=getSupportFragmentManager();
-        FragmentTransaction ft=fm.beginTransaction();
-        ft.replace(R.id.mainpageid,fragment);
-        ft.commit();
-    }
+
     //    private void setfragmentfull(Fragment fragment) {
 //        FragmentManager fm=getSupportFragmentManager();
 //        FragmentTransaction ft=fm.beginTransaction();
@@ -246,17 +241,21 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 Toast.makeText(MainActivity.this,"Read Later",Toast.LENGTH_SHORT).show();
                 break;
             case R.id.action_share_this_app:
-//                Toast.makeText(MainActivity.this,"Share this app",Toast.LENGTH_SHORT).show();
-                ApplicationInfo applicationInfo=getApplicationContext().getApplicationInfo();
-                String apkPath= applicationInfo.sourceDir;
-                Intent i=new Intent(Intent.ACTION_SEND);
-                i.setType("application/vnd.android.package-archive");
-                i.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(apkPath)));
-                Log.e("ApkPath",""+apkPath);
-                startActivity(Intent.createChooser(i,"Share Via"));
+                Toast.makeText(MainActivity.this,"Share this app",Toast.LENGTH_SHORT).show();
+//                ApplicationInfo applicationInfo=getApplicationContext().getApplicationInfo();
+//                String apkPath= applicationInfo.sourceDir;
+//                Intent i=new Intent(Intent.ACTION_SEND);
+//                i.setType("application/vnd.android.package-archive");
+//                i.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(new File(apkPath)));
+//                Log.e("ApkPath",""+apkPath);
+//                startActivity(Intent.createChooser(i,"Share Via"));
 
                 break;
             case R.id.action_logout:
+                mAuth.signOut();
+                Intent intent= new Intent(getApplicationContext(),assign_login.class);
+                startActivity(intent);
+                finish();
                 Toast.makeText(MainActivity.this,"Logout",Toast.LENGTH_SHORT).show();
                 break;
 
@@ -278,5 +277,11 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             navUserName.setText("Not Signed In");
         }
         navUserMail.setText(currentUser.getEmail());
+    }
+    private void setfragment(Fragment fragment) {
+        FragmentManager fm=getSupportFragmentManager();
+        FragmentTransaction ft=fm.beginTransaction();
+        ft.replace(R.id.mainpageid,fragment);
+        ft.commit();
     }
 }
