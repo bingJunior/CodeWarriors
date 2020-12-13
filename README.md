@@ -40,6 +40,8 @@ This is an android application , it will make policing much more easier. By the 
 ### Testing
 We Provided the built apk for testing it Just Download and install it in your smartphone
 
+ * [criminal Alert apk](https://github.com/bingJunior/CodeWarriors/tree/master/apk)
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
