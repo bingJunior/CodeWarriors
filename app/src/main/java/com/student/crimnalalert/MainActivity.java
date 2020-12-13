@@ -30,6 +30,7 @@ import com.student.crimnalalert.Fragment.layout_GUIDE;
 import com.student.crimnalalert.Fragment.layout_HOME;
 import com.student.crimnalalert.Fragment.layout_PREMIUM;
 import com.student.crimnalalert.Fragment.layout_PROFILE;
+import com.student.crimnalalert.Fragment.layout_login;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -252,8 +253,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
                 break;
             case R.id.action_logout:
-                mAuth.signOut();
-                Intent intent= new Intent(getApplicationContext(),assign_login.class);
+                FirebaseAuth.getInstance().signOut();
+                Intent intent= new Intent(getApplicationContext(),Splash_screen.class);
                 startActivity(intent);
                 finish();
                 Toast.makeText(MainActivity.this,"Logout",Toast.LENGTH_SHORT).show();

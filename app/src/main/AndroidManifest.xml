@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".viewfeatures"></activity>
+        <activity android:name=".ADMIN.MainActivityForAdmin"></activity>
+        <activity android:name=".SignUpAsAdminOrUser" />
+        <activity android:name=".ADMIN.RegisterActivityForAdmin" />
+        <activity android:name=".viewfeatures" />
         <activity android:name=".NCR_REGISTER.FoundArticle" />
         <activity android:name=".NCR_REGISTER.LostArticle" />
         <activity android:name=".NCR_REGISTER.MissingChildrenReport" />
@@ -34,6 +37,7 @@
         <activity android:name=".Splash_screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

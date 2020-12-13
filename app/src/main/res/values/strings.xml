@@ -149,7 +149,7 @@
     <string-array name="group3">
         <item>You can file your complaint by clicking on the desired complaint section in nav-drawer</item>
     </string-array>
-<string name="swipeleftright">Swipe left or right to see features</string>
+    <string name="swipeleftright">Swipe left or right to see features</string>
     <string name="complaittext"> You can file as many complaint regarding missing person,lost child,child labour etc as you want without any hindrances</string>
     <string name="newstext">you can read daily news  related to every  Categories online on Criminial alert</string>
     <string name="alertmessage">Recieved alert message of rate of crime of a particular state when you enter in that state</string>

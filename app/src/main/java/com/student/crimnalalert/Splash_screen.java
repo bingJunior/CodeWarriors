@@ -24,7 +24,7 @@ public class Splash_screen extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent registerintent=new Intent(Splash_screen.this,Registeractivity.class);
+                Intent registerintent=new Intent(Splash_screen.this,SignUpAsAdminOrUser.class);
                 startActivity(registerintent);
                 finish();
 
