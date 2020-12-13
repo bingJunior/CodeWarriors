@@ -5,11 +5,54 @@
 ![Version](https://img.shields.io/badge/SDK--Version-4.1-red?style=for-the-badge)
 ![Database](https://img.shields.io/badge/database-Firestore-blue?style=for-the-badge)
 
-## Introduction
+
+
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Testing](#testing)
+* [Contributing](#contributing)
+  * [Contributors](#contributors)
+
+## About the project
 This is an android application , it will make policing much more easier. By the use of this app we can file any complaints regarding any crime without going to police station from the comfort of our home just with a single click of a button. This will help our police department to read the cases on the go even if they are off duty. It will be super helpful to register crime with ease.
  
  
-# Contributors
+ ## Built with
+ 
+ - **Frontend**: [Java (Android)](https://www.java.com) and [Android studio](https://developer.android.com/studio)
+- **Backend**: [Firebase](https://firebase.google.com/)
+- **IDE**: Android Studio
+- **Version Control**: Git and GitHub
+
+
+## Getting Started
+
+### Prerequisites   
+ * Android Studio
+ * Android SDK (latest version)
+ * Android emulator or Smartphone
+
+
+### Testing
+We Provided the built apk for testing it Just Download and install it in your smartphone
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+ 
+## Contributors
 
 <table>
   <tr>
